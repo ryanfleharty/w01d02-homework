@@ -195,10 +195,6 @@ The value of i is: 9 of 10
 The value of i is: 10 of 10
 ```
 
-### :red_circle: Commit and push your work as described above, at the end of Section 1.
-
-### Congrats! You've reached the end of Section 2, and can go ahead and submit your homework.  Or, if you want more, try the exercises below.  If not, don't worry, you're in good shape to continue if you've made it this far, and homework submission instructrions are at the bottom. 
-
 <br>
 
 # "Hungry for more?"
