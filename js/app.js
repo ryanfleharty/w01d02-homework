@@ -42,13 +42,13 @@ console.log("hello " + "buddy");
   const d = 16;
   const e = 'Kevin';
 
-//   1.  a <= b;
-//   2.  c >= d;           
-//   3.  'Name' == 'Name'; 
-//   4.  a <= b <= c;  
-//   5.  a == a <= d;
-//   6.  e != 'Kevin';
-//   7.  48 == '48';
+console.log(a <= b);
+console.log(c >= d);           
+console.log('Name' == 'Name'); 
+console.log(a <= b <= c);  
+console.log(a == a != d);
+console.log(e === 'Kevin');
+console.log(48 == '48');
 
 //Part 3: While loops
 //### 1. Infinite loop?
