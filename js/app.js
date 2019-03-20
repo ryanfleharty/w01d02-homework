@@ -28,14 +28,70 @@ const c = 57;
 const d = 16;
 const e = 'Kevin';
 
-//console.log(a < b);
-//console.log(c > d);
-//console.log('Name' === 'Name');
-//console.log(a < b < c);
-//console.log(a < a < d);
-//console.log(e === 'Kevin');
-//console.log(48 !== '48');
+console.log(a < b);
+console.log(c > d);
+console.log('Name' === 'Name');
+console.log(a < b < c);
+console.log(a < a < d);
+console.log(e === 'Kevin');
+console.log(48 !== '48');
 
 
 
 //Part 3: While loops
+// 1. Yes, this will run an infinite loop because there is nothing to compare. It will always return a true value 
+// because it's only reading itself.
+
+//2. Yes, this will run an infinite loop because runProgram is set to true as a const and cannot be redefined 
+// later in the code.
+
+// 3. Reading Code
+
+// declares letters as a variable, defines letters to equal "A"
+let letters = "A";
+// tells computer to start at 0
+let i = 0;
+// tells computer to operate the bracketed code 21 times (0-20)
+while (i < 20) {
+    // letters = letters + "A"
+    letters += "A";
+    // tells computer to go to next number until we reach 20
+	i++;
+}
+// print the final value for letters
+console.log(letters);
+
+// It will print 21 "A"s in a row AAAAAAAAAAAAAAAAAAAAA
+// Yes, my conclusion was correct.
+
+// Part 4: Loops!
+// 1. Both for and while loops clean up repetitive code (DRY principle).
+// while loops are used when the number of times to execute the code is unknown/random. while loops tend to be 
+// longer and can be a little weird because the variable is defined outside of the bracketed code, so it can 
+// possibly be confused in a later function.
+// for loops are used when you know the number of times to execute (ex. comparing each value of an array). 
+// for loops are  cleaner because the expressions that take up several lines in a while loop are put into one line.
+
+// 2.
+for (i = 0; i <= 999; i++) {
+    //.console.log(i);
+}
+
+
+// 3.
+// The first part of the control statement is: let i = 0. It tells the computer to start at 0.
+// The second part of the control statement is: i < 100. It tells the computer that it should execute the bracketed 
+// code 101 times (0-100).
+// The third part of the control statement is: i++. It tells the computer to move on to the next number after it 
+// completes the code (ie. prints 'Without you, today\'s emotions are the scurf of yesterday\'s').
+
+
+// 4. 
+for (i = 999; i >= 0; i--) {
+    console.log(i);
+}
+
+// 5.
+for (i = 1; i <= 10; i++) {
+    console.log('The value of i is: ' + i + ' of 10');
+}
