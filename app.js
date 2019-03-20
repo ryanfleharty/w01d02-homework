@@ -49,11 +49,59 @@
 // 7. 48 = '48'
 
 
-1. It's not an infinite loop because there is nothing to check for the loop to repeat.
+// 1. It's not an infinite loop because there is nothing to check for the loop to repeat.
+//
+//
+// 2. it is  an infinite loop because it only loops while runProgram remains true.
+// But within the function it will return false but that is within the function staying locally
+// in the function and will not change the initial value of runProgram keeping it in a loop.
+
+//3.
+// established variable letters with the string A
+// let letters = "A";
+// // established the variable i with the value of 0
+// let i = 0;
+// // starts a loop for when i is less than 20 run the loop.
+//
+// while (i < 20) {
+//   // add A to the variable A
+// 	letters += "A";
+//   // Continue to run the loop until while is complete.
+// 	i++;
+// }
+// // logs the letter A infinitely
+// console.log(letters);
 
 
-2. it is  an infinite loop because it only loops while runProgram remains true.
-But within the function it will return false but that is within the function staying locally
-in the function and will not change the initial value of runProgram keeping it in a loop.
 
-3. 
+
+
+// 1. The difference between for and while loops is how the loop is conducted.
+// For loops have less code and have the loop within the initial (). Which can keep
+// going on infinitely if it isn't written right. while the while
+// loops have more code underneath them for returns and work until it's finished.
+
+2. for (let i = 0; i <= 999; i++) {
+  console.log(i);
+}
+
+3.
+// defining i as a variable with 0 as its value.
+// until i = 100
+// continue until previous are false.
+ for (let i = 0; i < 100; i++) {
+	console.log('Without you, today\'s emotions are the scurf of yesterday\'s');
+}
+
+
+
+4. for (let i = 999; i < 0; i--) {
+  console.log(i);
+}
+
+
+
+
+5. for (let i = 1; i < 10; i++) {
+  console.log(`the value of i is: ${i} of 10`);
+}
